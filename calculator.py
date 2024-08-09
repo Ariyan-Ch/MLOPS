@@ -7,6 +7,8 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 
+def division(x,y):
+    return x/y
 
 def calculator():
     print("Select operation:")
@@ -27,6 +29,8 @@ def calculator():
             print(f"{num1} - {num2} = {subtract(num1, num2)}")
         elif choice == '3':
             print(f"{num1} * {num2} = {multiply(num1, num2)}")
+        elif choice == '4':
+            print(f"{num1} / {num2} = {division(num1, num2)}")
 
     else:
         print("Invalid input")
